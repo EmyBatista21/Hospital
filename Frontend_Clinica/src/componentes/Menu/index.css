@@ -1,0 +1,39 @@
+.menu {
+  background-color: rgb(136, 139, 136); /* Verde escuro, comum em clínicas médicas */
+  padding: 10px;
+}
+
+.menu-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.btn-menu {
+  margin-right: 15px;
+  flex-grow: 1; /* Faz com que as li ocupem todo o espaço disponível */
+}
+
+.btn-menu a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  display: block; /* Para ocupar 100% da largura da li */
+}
+
+.btn-menu a:hover {
+  background-color: #4490a3; /* Um tom mais claro ao passar o mouse */
+}
+
+.active {
+  background-color: #9167b3; /* Cor para indicar a página ativa */
+}
+
+.nav{
+  text-align: center;
+}

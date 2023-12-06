@@ -1,0 +1,30 @@
+
+div {
+    margin: 20px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  thead {
+    background-color: rgb(105, 148, 168);
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tr.dados:hover {
+    background-color: rgb(83, 117, 167);
+  }
+  
+  
